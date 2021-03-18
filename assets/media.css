@@ -21,4 +21,91 @@
     .browse-btn {
         font-size: 6vw;
     }
+    .browse-btn:hover {
+        color: #fff;
+        font-size: 5.5vw;
+    }
+    .headings-browse {
+        font-size: 5vw;
+        text-align: center;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+    .size-browse-tv_show {
+        width: 75vw;
+        height: 50vw;
+    }
+    .details-browse {
+        display: inline-block;
+        font-size: 3.5vw;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+    table tr {
+        display: block;
+    }
+    table td {
+        display: block;
+        text-align: center;
+    }
+    .zoom-hover {
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .topbar {
+        padding: 4vw;
+    }
+    .logo-top {
+        width: 25vw;
+    }
+    .navbar-a {
+        font-size: 8vw;
+    }
+    .title {
+        padding: 4vw;
+        font-size: 7vw;
+    }
+    .browse {
+        padding-top: 4vw;
+        padding-bottom: 4vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+    .browse-btn {
+        font-size: 6vw;
+    }
+    .browse-btn:hover {
+        color: #fff;
+        font-size: 5.5vw;
+    }
+    .headings-browse {
+        font-size: 5vw;
+        text-align: center;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+    .size-browse-tv_show {
+        width: 75vw;
+        height: 50vw;
+    }
+    .details-browse {
+        display: inline-block;
+        font-size: 3.5vw;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+    table tr {
+        display: block;
+    }
+    table td {
+        display: block;
+        text-align: center;
+    }
+    .zoom-hover {
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
 }
