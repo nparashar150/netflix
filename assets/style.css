@@ -115,6 +115,7 @@ main::before {
     color: #fff;
     font-family: 'Nunito Sans', sans-serif;
     margin-left: 2vw;
+    padding-bottom: 5vw;
 }
 
 .headings-browse {
@@ -143,9 +144,10 @@ main::before {
     overflow: hidden;
     border-radius: 25px;
     justify-content: center;
-    border: solid 2px #e14646;
+    border: solid 2px rgb(225, 70, 70, 0.5);
     margin-top: 2vw;
     margin-left: 4vw;
+    box-shadow: 0 0 20px #000000;
     transition: 0.4s all ease-in-out;
 }
 
@@ -158,9 +160,10 @@ main::before {
     margin-right: 6vw;
     margin-left: 2vw;
     padding: 1vw;
-    border: 2px solid #e14646;
+    border: 2px solid rgb(225, 70, 70, 0.5);
     border-radius: 25px;
     margin-top: 2vw;
+    box-shadow: 0 0 20px #000000;
     font-size: 1.2vw;
     background-color: rgb(0, 0, 0, 0.7);
     filter: opacity(1);
