@@ -1,3 +1,20 @@
+@media screen and (max-width: 300px) {
+    .home-2-heading {
+        font-size: 7vw;
+        text-align: center;
+        position: absolute;
+        margin-top: 49vw;
+        left: 50vw;
+        transform: translate(-50%, -50%);
+    }
+    .home-3-heading {
+        margin-top: 65vw;
+        left: 50vw;
+        transform: translate(-50%, -50%);
+        font-size: 3.5vw;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .topbar {
         padding: 4vw;
@@ -52,9 +69,23 @@
         margin-left: 10vw;
         margin-right: 10vw;
     }
+    .home-2-heading {
+        font-size: 7vw;
+        text-align: center;
+        position: absolute;
+        margin-top: 47vw;
+        left: 50vw;
+        transform: translate(-50%, -50%);
+    }
+    .home-3-heading {
+        margin-top: 60vw;
+        left: 50vw;
+        transform: translate(-50%, -50%);
+        font-size: 3.5vw;
+    }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width:600px) and (max-width: 1024px) {
     .topbar {
         padding: 4vw;
     }
@@ -107,5 +138,49 @@
     .zoom-hover {
         margin-left: 10vw;
         margin-right: 10vw;
+    }
+    .home-2-heading {
+        font-size: 7vw;
+        text-align: center;
+        position: absolute;
+        margin-top: 40vw;
+        left: 50vw;
+        transform: translate(-50%, -50%);
+    }
+    .home-3-heading {
+        margin-top: 52vw;
+        left: 50vw;
+        transform: translate(-50%, -50%);
+        font-size: 3.5vw;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .home-2-heading {
+        text-align: center;
+        position: absolute;
+        top: 82vw;
+        left: 50vw;
+        transform: translate(-50%, -50%);
+    }
+    .home-3-heading {
+        top: 90vw;
+        left: 50vw;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1920px) {
+    .home-2-heading {
+        text-align: center;
+        position: absolute;
+        top: 80vw;
+        left: 50vw;
+        transform: translate(-50%, -50%);
+    }
+    .home-3-heading {
+        top: 87vw;
+        left: 50vw;
+        transform: translate(-50%, -50%);
     }
 }
