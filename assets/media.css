@@ -19,6 +19,9 @@
     .topbar {
         padding: 4vw;
     }
+    .loader-text {
+        font-size: 7vw;
+    }
     .logo-top {
         width: 25vw;
     }

@@ -233,3 +233,62 @@ body::-webkit-scrollbar-thumb {
     letter-spacing: 1mm;
     text-align: center;
 }
+
+.loader {
+    background-color: #000;
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.loading-netflix {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+    font-size: 4vw;
+    color: #fff;
+}
+
+.loading-netflix {
+    font-family: 'Nunito Sans', sans-serif;
+    content: attr(data-text);
+    position: absolute;
+    color: #d83a3a;
+    top: calc(45vh);
+    left: calc(43vw);
+    overflow: hidden;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 0%;
+    animation: fill 2s ease-in-out infinite;
+}
+
+.loader-text {
+    font-size: 5vw;
+}
+
+@keyframes fill {
+    0% {
+        width: 0%;
+    }
+    25% {
+        width: 10%;
+    }
+    50% {
+        width: 30%;
+    }
+    75% {
+        width: 10%;
+    }
+    100% {
+        width: 0%;
+    }
+}
