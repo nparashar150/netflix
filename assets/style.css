@@ -13,7 +13,20 @@ main {
     margin-left: 1vw;
     width: 10vw;
     margin-top: 1vw;
+    animation: 2s hue-rotate infinite ease-in-out;
     margin-bottom: 1vw;
+}
+
+@keyframes hue-rotate {
+    0% {
+        filter: hue-rotate(340deg);
+    }
+    50% {
+        filter: hue-rotate(360deg);
+    }
+    100% {
+        filter: hue-rotate(340deg);
+    }
 }
 
 .btn-primary {
