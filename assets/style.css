@@ -281,18 +281,23 @@ body::-webkit-scrollbar-thumb {
 @keyframes fill {
     0% {
         width: 0%;
+        filter: hue-rotate(0deg);
     }
     25% {
         width: 10%;
+        filter: hue-rotate(80deg);
     }
     50% {
         width: 30%;
+        filter: hue-rotate(150deg);
     }
     75% {
         width: 10%;
+        filter: hue-rotate(200deg);
     }
     100% {
         width: 0%;
+        filter: hue-rotate(360deg);
     }
 }
 
