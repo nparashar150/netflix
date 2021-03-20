@@ -101,7 +101,7 @@ main::before {
     text-shadow: 0 0 20px #000;
     margin-top: 10%;
     font-size: 3.5vw;
-    letter-spacing: 1mm;
+    letter-spacing: 0.6mm;
     font-weight: 500;
     font-family: 'Nunito Sans', sans-serif;
 }
@@ -233,7 +233,7 @@ body::-webkit-scrollbar-thumb {
     left: 50%;
     transform: translate(-50%, -50%);
     font-weight: 600;
-    letter-spacing: 1mm;
+    letter-spacing: 0.6mm;
 }
 
 .home-3-heading {
@@ -246,7 +246,7 @@ body::-webkit-scrollbar-thumb {
     font-weight: 300;
     text-shadow: 0 0 20px #000;
     font-size: 1.7vw;
-    letter-spacing: 1mm;
+    letter-spacing: 0.6mm;
     text-align: center;
 }
 
@@ -354,7 +354,7 @@ body::-webkit-scrollbar-thumb {
     font-size: 4.2vw;
     font-weight: 600;
     text-shadow: 0 0 20px #000;
-    letter-spacing: 1mm;
+    letter-spacing: 0.6mm;
 }
 
 .heading-money-heise {
@@ -364,7 +364,7 @@ body::-webkit-scrollbar-thumb {
     font-weight: 600;
     color: #fff;
     text-align: center;
-    letter-spacing: 1mm;
+    letter-spacing: 0.6mm;
     text-shadow: 0 0 20px #000;
 }
 
@@ -374,7 +374,7 @@ body::-webkit-scrollbar-thumb {
     font-weight: 600;
     color: #fff;
     text-align: center;
-    letter-spacing: 1mm;
+    letter-spacing: 0.6mm;
     text-shadow: 0 0 20px #000;
 }
 
@@ -400,7 +400,7 @@ body::-webkit-scrollbar-thumb {
     border-radius: 20px;
     background-color: rgb(216, 58, 58, 0.7);
     font-family: 'Nunito Sans', sans-serif;
-    letter-spacing: 1mm;
+    letter-spacing: 0.6mm;
     color: white;
     opacity: 1;
     margin-right: 29vw;
@@ -431,10 +431,10 @@ body::-webkit-scrollbar-thumb {
 }
 
 .end {
-    filter: opacity(0.5);
+    filter: opacity(0.7);
     width: auto;
     height: 22vw;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0.3) 80%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.8) 60%, rgba(0, 0, 0, 0.3) 80%, rgba(0, 0, 0, 0) 100%);
     padding-top: 5vw;
     padding-bottom: 5vw;
 }
@@ -446,6 +446,7 @@ body::-webkit-scrollbar-thumb {
 
 .data-footer {
     padding-top: 5vw;
+    letter-spacing: 0.5mm;
     padding-left: 5vw;
     text-align: left;
     font-size: 1.3vw;
@@ -459,6 +460,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .data-footer-2 {
+    letter-spacing: 0.5mm;
     padding-top: 5vw;
     padding-left: 5vw;
     text-align: center;
