@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix India</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="assets/style.css">
     <link rel="icon" href="assets/netflixlogo.png" type="image/x-icon">
     <link rel="stylesheet" href="assets/media.css">
@@ -46,7 +48,7 @@
     </main>
     <section class="netflix-video-section">
         <div class="video">
-            <video autoplay muted loop id="netflix-video-section-id" class="netflix-home-video-loop">
+            <video id="videoPlayer" autoplay muted loop id="netflix-video-section-id" class="netflix-home-video-loop">
                 <source src="assets/netflix-home-2.webm" type="video/webm">
                 Your browser does not support HTML5 video.
             </video>
@@ -54,12 +56,221 @@
             <h4 class="home-3-heading">Watch on smart TVs, PlayStation, Xbox, <br> Chromecast, Apple TV, Blu-ray players <br> and more</h4>
         </div>
     </section>
+    <section class="la_casa_de_papel">
+        <!--<div class="bg_la_casa">
+            <h3 class="heading_money">Most Watched</h3>
+            <div>
+                <h3 class="heading-money-heise">Money Heist</h3>
+                <div class="video_hover">
+                    <video autoplay muted class="video_money" frameborder="0" loop src="assets/tv_img_show/money_heist_video_trailer.mp4"></video>
+                </div>
+            </div>
+        </div>-->
+        <section class="headings">
+            <h3 class="heading-money-heise">Popular on Netflix</h3>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <table style="width:100%; text-align: center;">
+                            <tr>
+                                <td>
+                                    <h1 class="heading-money-heise-2">Money Heist</h1>
+                                    <div class="zoom-hover">
+                                        <video class="size-browse-popular_show" ondblclick="play()" onclick="pause()" onmouseover="disableMute()" onmouseleave="enableMute()" id="video_hover" webkit-playsinline frameborder="0" loop src="assets/tv_img_show/popular_trailers/money_heist_video_trailer.mp4"></video>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="swiper-slide">
+                        <table style="width:100%; text-align: center;">
+                            <tr>
+                                <td>
+                                    <h1 class="heading-money-heise-2">Ozark</h1>
+                                    <div class="zoom-hover">
+                                        <video class="size-browse-popular_show" ondblclick="play()" onclick="pause()" onmouseover="disableMute()" onmouseleave="enableMute()" id="video_hover" webkit-playsinline frameborder="0" loop src="assets/tv_img_show/popular_trailers/ozark.mp4"></video>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="swiper-slide">
+                        <table style="width:100%; text-align: center;">
+                            <tr>
+                                <td>
+                                    <h1 class="heading-money-heise-2">Black Clover</h1>
+                                    <div class="zoom-hover">
+                                        <video class="size-browse-popular_show" ondblclick="play()" onclick="pause()" onmouseover="disableMute()" onmouseleave="enableMute()" id="video_hover" webkit-playsinline frameborder="0" loop src="assets/tv_img_show/popular_trailers/Black_Clover.mp4"></video>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="swiper-slide">
+                        <table style="width:100%; text-align: center;">
+                            <tr>
+                                <td>
+                                    <h1 class="heading-money-heise-2">Vikings</h1>
+                                    <div class="zoom-hover">
+                                        <video class="size-browse-popular_show" ondblclick="play()" onclick="pause()" onmouseover="disableMute()" onmouseleave="enableMute()" id="video_hover" webkit-playsinline frameborder="0" loop src="assets/tv_img_show/popular_trailers/vikings.mp4"></video>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="swiper-slide">
+                        <table style="width:100%; text-align: center;">
+                            <tr>
+                                <td>
+                                    <h1 class="heading-money-heise-2">Peaky Blinders</h1>
+                                    <div class="zoom-hover">
+                                        <video class="size-browse-popular_show" ondblclick="play()" onclick="pause()" onmouseover="disableMute()" onmouseleave="enableMute()" id="video_hover" webkit-playsinline frameborder="0" loop src="assets/tv_img_show/popular_trailers/Peaky_Blinders.mp4"></video>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="swiper-slide">
+                        <table style="width:100%; text-align: center;">
+                            <tr>
+                                <td>
+                                    <h1 class="heading-money-heise-2">The Witcher</h1>
+                                    <div class="zoom-hover">
+                                        <video class="size-browse-popular_show" ondblclick="play()" onclick="pause()" onmouseover="disableMute()" onmouseleave="enableMute()" id="video_hover" webkit-playsinline frameborder="0" loop src="assets/tv_img_show/popular_trailers/WITCHER _trailer.mp4"></video>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="swiper-slide">
+                        <table style="width:100%; text-align: center;">
+                            <tr>
+                                <td>
+                                    <h1 class="heading-money-heise-2">Attack On Titan</h1>
+                                    <div class="zoom-hover">
+                                        <video class="size-browse-popular_show" ondblclick="play()" onclick="pause()" onmouseover="disableMute()" onmouseleave="enableMute()" id="video_hover" webkit-playsinline frameborder="0" loop src="assets/tv_img_show/popular_trailers/Attack_On_Titan_ Trailer.mp4"></video>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="swiper-slide">
+                        <table style="width:100%; text-align: center;">
+                            <tr>
+                                <td>
+                                    <h1 class="heading-money-heise-2">The 100</h1>
+                                    <div class="zoom-hover">
+                                        <video class="size-browse-popular_show" ondblclick="play()" onclick="pause()" onmouseover="disableMute()" onmouseleave="enableMute()" id="video_hover" webkit-playsinline frameborder="0" loop src="assets/tv_img_show/popular_trailers/the_100.mp4"></video>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="swiper-slide">
+                        <table style="width:100%; text-align: center;">
+                            <tr>
+                                <td>
+                                    <h1 class="heading-money-heise-2">B The Beginning</h1>
+                                    <div class="zoom-hover">
+                                        <video class="size-browse-popular_show" ondblclick="play()" onclick="pause()" onmouseover="disableMute()" onmouseleave="enableMute()" id="video_hover" webkit-playsinline frameborder="0" loop src="assets/tv_img_show/popular_trailers/B_ The_Beginning .mp4"></video>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="swiper-slide">
+                        <table style="width:100%; text-align: center;">
+                            <tr>
+                                <td>
+                                    <h1 class="heading-money-heise-2">The Queen’s Gambit</h1>
+                                    <div class="zoom-hover">
+                                        <video class="size-browse-popular_show" ondblclick="play()" onclick="pause()" onmouseover="disableMute()" onmouseleave="enableMute()" id="video_hover" webkit-playsinline frameborder="0" loop src="assets/tv_img_show/popular_trailers/The_Queen’s_Gambit .mp4"></video>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="swiper-slide">
+                        <table style="width:100%; text-align: center;">
+                            <tr>
+                                <td>
+                                    <h1 class="heading-money-heise-2">Death Note</h1>
+                                    <div class="zoom-hover">
+                                        <video class="size-browse-popular_show" ondblclick="play()" onclick="pause()" onmouseover="disableMute()" onmouseleave="enableMute()" id="video_hover" webkit-playsinline frameborder="0" loop src="assets/tv_img_show/popular_trailers/Death_Note.mp4"></video>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="swiper-button-next swiper-button-white "></div>
+                <div class="swiper-button-prev swiper-button-white "></div>
+            </div>
+        </section>
+    </section>
+    <script src="assets/shortcuts.user.js"></script>
     <script>
         setTimeout(function() {
             $('.loader').fadeToggle();
         }, 3000);
     </script>
+    <script>
+        var videoPlayer = document.getElementById('videoPlayer');
+        videoPlayer.play();
+        videoPlayer.addEventListener('click', function() {
+            if (videoPlayer.paused == false) {
+                videoPlayer.pause();
+                videoPlayer.firstChild.nodeValue = 'Play';
+            } else {
+                videoPlayer.play();
+                videoPlayer.firstChild.nodeValue = 'Pause';
+            }
+        });
+    </script>
+    <script>
+        setTimeout(function() {
+            $('.loader').fadeToggle();
+        }, 5000);
+    </script>
+    <script>
+        setTimeout(function() {
+            $('.loader').fadeToggle();
+        }, 5000);
+    </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js "></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+    <script>
+        var vid = document.getElementById("video_hover");
+
+        function disableMute() {
+            vid.muted = false;
+        }
+
+        function enableMute() {
+            vid.muted = true;
+        }
+
+        function pause() {
+            vid.muted = true;
+            var video = document.getElementById("video_hover");
+            return video.paused ? video.play() : video.pause();
+        };
+
+        function play() {
+            vid.muted = false;
+            var video = document.getElementById("video_hover");
+            return video.paused ? video.play() : video.pause();
+        };
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js "></script>
 </body>
 
 </html>
