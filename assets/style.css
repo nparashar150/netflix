@@ -429,3 +429,45 @@ body::-webkit-scrollbar-thumb {
 .closebtn:hover {
     color: #fcff4d;
 }
+
+.end {
+    filter: opacity(0.5);
+    width: auto;
+    height: 22vw;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0.3) 80%, rgba(0, 0, 0, 0) 100%);
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+}
+
+.footer-table {
+    width: 100%;
+    text-align: center;
+}
+
+.data-footer {
+    padding-top: 5vw;
+    padding-left: 5vw;
+    text-align: left;
+    font-size: 1.3vw;
+    color: #fff;
+    padding-right: 5vw;
+}
+
+.data-footer>a {
+    text-decoration: none !important;
+    color: #d83a3a;
+}
+
+.data-footer-2 {
+    padding-top: 5vw;
+    padding-left: 5vw;
+    text-align: center;
+    font-size: 1.3vw;
+    color: #fff;
+    padding-right: 5vw;
+}
+
+.data-footer-2>a {
+    text-decoration: none !important;
+    color: #d83a3a;
+}
