@@ -265,7 +265,7 @@ body::-webkit-scrollbar-thumb {
     position: absolute;
     color: #d83a3a;
     top: calc(45vh);
-    left: calc(43vw);
+    left: calc(40vw);
     overflow: hidden;
     display: block;
     justify-content: center;
