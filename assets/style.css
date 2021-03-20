@@ -375,3 +375,39 @@ body::-webkit-scrollbar-thumb {
 .size-browse-popular_show:hover {
     transform: scale(1.1);
 }
+
+.alert {
+    padding: 20px;
+    box-shadow: 0 0 20px #000;
+    border-radius: 20px;
+    background-color: rgb(216, 58, 58, 0.7);
+    font-family: 'Nunito Sans', sans-serif;
+    letter-spacing: 1mm;
+    color: white;
+    opacity: 1;
+    margin-right: 29vw;
+    margin-left: 30vw;
+    margin-top: 2vw;
+    font-size: 0.8vw;
+    transition: 0.7s opacity ease-out;
+    margin-bottom: 15px;
+}
+
+.alert.success {
+    background-color: rgb(216, 58, 58, 0.7);
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 20px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: #fcff4d;
+}

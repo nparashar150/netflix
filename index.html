@@ -68,6 +68,10 @@
         </div>-->
         <section class="headings">
             <h3 class="heading-money-heise">Popular on Netflix</h3>
+            <div class="alert success">
+                <span class="closebtn">&times;</span>
+                <strong>Note!</strong> Double Click to Play , Single Click to Pause.
+            </div>
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
@@ -212,7 +216,7 @@
     <script>
         setTimeout(function() {
             $('.loader').fadeToggle();
-        }, 3000);
+        }, 5000);
     </script>
     <script>
         var videoPlayer = document.getElementById('videoPlayer');
@@ -246,6 +250,20 @@
                 prevEl: '.swiper-button-prev',
             },
         });
+    </script>
+    <script>
+        var close = document.getElementsByClassName("closebtn");
+        var i;
+
+        for (i = 0; i < close.length; i++) {
+            close[i].onclick = function() {
+                var div = this.parentElement;
+                div.style.opacity = "0";
+                setTimeout(function() {
+                    div.style.display = "none";
+                }, 600);
+            }
+        }
     </script>
     <script>
         var vid = document.getElementById("video_hover");
