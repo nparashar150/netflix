@@ -1,2 +1,7 @@
-# netflix
-Netflix concept with new UI.
+# Netflix Re-Design
+
+<br>
+
+### Netflix concept with different UI.
+
+<br>
