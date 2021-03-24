@@ -383,11 +383,12 @@ body::-webkit-scrollbar-thumb {
     height: 350px;
     transition: 0.4s all ease-in-out;
     vertical-align: middle;
-    padding: 0.3vw;
+    padding: 0.5vw;
     box-shadow: 0 0 20px #020202;
-    padding-left: 0.6vw;
-    padding-right: 0.6vw;
-    border-radius: 8%;
+    padding-left: 0.8vw;
+    padding-right: 0.8vw;
+    border-radius: 25px 25px 25px 25px;
+    object-fit: cover;
 }
 
 .size-browse-popular_show:hover {
