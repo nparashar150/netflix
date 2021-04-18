@@ -340,13 +340,10 @@
     
     .data-footer-2 {
         letter-spacing: 0.5mm;
-        padding-top: 3vw;
-        padding-left: 5vw;
         text-align: center;
         font-size: 4.5vw;
         color: #fff;
-        padding-right: 5vw;
-        padding-bottom: 3vw;
+        padding: 3vw 5vw 3vw 5vw;
     }
 }
 
