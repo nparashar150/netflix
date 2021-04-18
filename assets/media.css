@@ -8,6 +8,7 @@
         left: 50vw;
         transform: translate(-50%, -50%);
     }
+    
     .home-3-heading {
         padding-top: 30vw;
         margin-top: 65vw;
@@ -15,6 +16,7 @@
         transform: translate(-50%, -50%);
         font-size: 3.5vw;
     }
+    
     .home-2-heading,
     .home-3-heading {
         width: 80%;
@@ -25,21 +27,26 @@
     .topbar {
         padding: 4vw;
     }
+    
     .loader-text {
         font-size: 7vw;
     }
+    
     .logo-top {
         width: 25vw;
     }
+    
     .navbar-a {
         font-size: 8vw;
     }
+    
     .title {
         padding: 5vw;
         padding-top: 6vw;
         padding-bottom: 14vw;
         font-size: 7vw;
     }
+    
     .browse {
         padding-top: 4vw;
         padding-bottom: 4vw;
@@ -47,23 +54,28 @@
         padding-right: 5vw;
         margin-bottom: 20vvw;
     }
+    
     .browse-btn {
         font-size: 6vw;
     }
+    
     .browse-btn:hover {
         color: #fff;
         font-size: 5.5vw;
     }
+    
     .headings-browse {
         font-size: 5vw;
         text-align: center;
         margin-left: 10vw;
         margin-right: 10vw;
     }
+    
     .size-browse-tv_show {
         width: 75vw;
         height: 50vw;
     }
+    
     .size-browse-popular_show {
         width: 75vw;
         -moz-border-radius: 40px 40px 40px 40px;
@@ -73,28 +85,34 @@
         padding: 2vw 2vw 2vw 2vw;
         height: 50vw;
     }
+    
     .details-browse {
         display: inline-block;
         font-size: 3.5vw;
         margin-left: 10vw;
         margin-right: 10vw;
     }
+    
     table tr {
         display: block;
     }
+    
     table td {
         display: block;
         text-align: center;
     }
+    
     .zoom-hover {
         margin-left: 10vw;
         margin-bottom: 15vw;
         margin-right: 10vw;
     }
+    
     .home-2-heading,
     .home-3-heading {
         width: 80%;
     }
+    
     .home-2-heading {
         padding-top: 20vw;
         font-size: 7.2vw;
@@ -111,14 +129,17 @@
         transform: translate(-50%, -50%);
         font-size: 6.3vw;
     }
+    
     .heading-money-heise {
         padding-top: 8vw;
         font-size: 8vw;
     }
+    
     .heading-money-heise-2 {
         font-size: 6vw;
         padding-bottom: 2vw;
     }
+    
     .alert {
         margin-right: 10vw;
         margin-left: 10vw;
@@ -126,21 +147,25 @@
         letter-spacing: 0.5mm;
         font-size: 2.7vw;
     }
+    
     .loading-netflix {
         top: calc(45vh);
         left: calc(40%);
         width: 100vw;
     }
+    
     .end {
         filter: opacity(0.6);
         width: auto;
         height: 100vw;
         background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.8) 60%, rgba(0, 0, 0, 0.3) 80%, rgba(0, 0, 0, 0) 100%);
     }
+    
     .footer-table {
         width: 100%;
         text-align: center;
     }
+    
     .data-footer {
         padding-top: 5vw;
         padding-left: 6vw;
@@ -148,6 +173,7 @@
         font-size: 4.5vw;
         padding-right: 6vw;
     }
+    
     .data-footer-2 {
         letter-spacing: 0.5mm;
         padding-top: 3vw;
@@ -164,26 +190,32 @@
     .topbar {
         padding: 4vw;
     }
+    
     .loading-netflix {
         top: calc(45vh);
         left: calc(40%);
         width: 100vw;
     }
+    
     .loader-text {
         font-size: 7vw;
     }
+    
     .logo-top {
         width: 25vw;
     }
+    
     .navbar-a {
         font-size: 8vw;
     }
+    
     .title {
         padding: 5vw;
         padding-top: 6vw;
         padding-bottom: 14vw;
         font-size: 7vw;
     }
+    
     .browse {
         padding-top: 4vw;
         padding-bottom: 4vw;
@@ -191,23 +223,28 @@
         padding-right: 5vw;
         margin-bottom: 20vvw;
     }
+    
     .browse-btn {
         font-size: 6vw;
     }
+    
     .browse-btn:hover {
         color: #fff;
         font-size: 5.5vw;
     }
+    
     .headings-browse {
         font-size: 5vw;
         text-align: center;
         margin-left: 10vw;
         margin-right: 10vw;
     }
+    
     .size-browse-tv_show {
         width: 75vw;
         height: 50vw;
     }
+    
     .size-browse-popular_show {
         width: 75vw;
         -moz-border-radius: 40px 40px 40px 40px;
@@ -217,28 +254,34 @@
         padding: 2vw 2vw 2vw 2vw;
         height: 50vw;
     }
+    
     .details-browse {
         display: inline-block;
         font-size: 3.5vw;
         margin-left: 10vw;
         margin-right: 10vw;
     }
+    
     table tr {
         display: block;
     }
+    
     table td {
         display: block;
         text-align: center;
     }
+    
     .zoom-hover {
         margin-left: 10vw;
         margin-bottom: 15vw;
         margin-right: 10vw;
     }
+    
     .home-2-heading,
     .home-3-heading {
         width: 80%;
     }
+    
     .home-2-heading {
         padding-top: 20vw;
         font-size: 7.2vw;
@@ -248,6 +291,7 @@
         left: 50vw;
         transform: translate(-50%, -50%);
     }
+    
     .home-3-heading {
         padding-top: 20vw;
         margin-top: 57vw;
@@ -255,14 +299,17 @@
         transform: translate(-50%, -50%);
         font-size: 6.3vw;
     }
+    
     .heading-money-heise {
         padding-top: 8vw;
         font-size: 8vw;
     }
+    
     .heading-money-heise-2 {
         font-size: 6vw;
         padding-bottom: 2vw;
     }
+    
     .alert {
         margin-right: 10vw;
         margin-left: 10vw;
@@ -270,16 +317,19 @@
         letter-spacing: 0.5mm;
         font-size: 2.7vw;
     }
+    
     .end {
         filter: opacity(0.6);
         width: auto;
         height: 100vw;
         background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.8) 60%, rgba(0, 0, 0, 0.3) 80%, rgba(0, 0, 0, 0) 100%);
     }
+    
     .footer-table {
         width: 100%;
         text-align: center;
     }
+    
     .data-footer {
         padding-top: 5vw;
         padding-left: 6vw;
@@ -287,6 +337,7 @@
         font-size: 4.5vw;
         padding-right: 6vw;
     }
+    
     .data-footer-2 {
         letter-spacing: 0.5mm;
         padding-top: 3vw;
@@ -307,6 +358,7 @@
         left: 50vw;
         transform: translate(-50%, -50%);
     }
+    
     .home-3-heading {
         top: 90vw;
         left: 50vw;
@@ -322,15 +374,18 @@
         left: 50vw;
         transform: translate(-50%, -50%);
     }
+    
     .home-3-heading {
         top: 87vw;
         left: 50vw;
         transform: translate(-50%, -50%);
     }
+    
     .alert {
         margin-right: 32.5vw;
         margin-left: 34.5vw;
     }
+    
     .loading-netflix {
         top: calc(45vh);
         left: calc(45vw);
